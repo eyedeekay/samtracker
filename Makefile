@@ -1,6 +1,10 @@
 
+GO111MODULE=on
+
 build: fmt
-	go build -o samtracker/samtracker ./samtracker
+	go build -a -tags "netgo static" \
+		-ldflags '-w -extldflags "-static"' \
+		-o samtracker/samtracker ./samtracker
 
 fmt:
 	gofmt -w *.go
