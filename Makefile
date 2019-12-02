@@ -7,4 +7,4 @@ fmt:
 
 try: build
 	mkdir -p tmp
-	cd tmp && ../tracker
+	cd tmp && ../samtracker/samtracker
