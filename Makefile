@@ -2,6 +2,8 @@
 GO111MODULE=on
 INSTALLDIR=/usr/local/bin
 
+VERSION=0.0.01
+
 build: fmt
 	go build -a -tags "netgo static" \
 		-ldflags '-w -extldflags "-static"' \

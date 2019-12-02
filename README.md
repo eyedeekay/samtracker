@@ -16,3 +16,9 @@ If you have a go environment set up, you can easily install it from source using
 
         go get -u github.com/eyedeekay/samtracker
 
+Or, if you want to use a binary, you can download the tar.gz file:
+
+        wget https://github.com/eyedeekay/samtracker/releases/download/0.0.01/samtracker.tar.gz
+        mkdir tmp && cd tmp
+        tar xvf ../samtracker.tar.gz
+
