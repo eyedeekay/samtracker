@@ -7,8 +7,8 @@ import (
 )
 
 import (
-	"github.com/eyedeekay/samtracker"
 	"github.com/eyedeekay/sam-forwarder/config"
+	"github.com/eyedeekay/samtracker"
 )
 
 var cfg = &tls.Config{

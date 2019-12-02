@@ -7,7 +7,7 @@ build: fmt
 		-o samtracker/samtracker ./samtracker
 
 fmt:
-	gofmt -w *.go
+	gofmt -w *.go samtracker/*.go
 
 try: build
 	mkdir -p tmp
