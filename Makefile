@@ -22,6 +22,8 @@ tag:
 upload: tar
 	gothub upload -R -u eyedeekay -r samtracker -t $(VERSION) -n "samtracker.tar.gz" -f "./samtracker.tar.gz"
 
+release: tag upload
+
 tar: build
 	tar --exclude=.git --exclude=samtracker.tar.gz -cvf ./samtracker.tar.gz .
 
