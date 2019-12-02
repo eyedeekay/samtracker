@@ -19,10 +19,10 @@ try: build
 tag:
 	cat changelog | gothub release -p -u eyedeekay -r samtracker -t $(VERSION) -n $(VERSION) -d -; true
 
-upload:
+upload: tar
 	gothub upload -R -u eyedeekay -r samtracker -t $(VERSION) -n "samtracker.tar.gz" -f "./samtracker.tar.gz"
 
-tar:
+tar: build
 	tar --exclude=.git --exclude=samtracker.tar.gz -cvf ./samtracker.tar.gz .
 
 install:

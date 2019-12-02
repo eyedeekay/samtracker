@@ -21,4 +21,4 @@ Or, if you want to use a binary, you can download the tar.gz file:
         wget https://github.com/eyedeekay/samtracker/releases/download/0.0.01/samtracker.tar.gz
         mkdir tmp && cd tmp
         tar xvf ../samtracker.tar.gz
-
+        sudo make install
