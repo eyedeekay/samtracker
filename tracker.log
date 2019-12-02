@@ -1,0 +1,23 @@
+gofmt -w *.go
+go build -o samtracker/samtracker ./samtracker
+mkdir -p tmp
+cd tmp && ../samtracker/samtracker
+2019/12/01 19:59:12 Initializing eephttpd
+2019/12/01 19:59:12 Started putting tunnel up
+2019/12/01 19:59:12 SAM Bridge connection established.
+2019/12/01 19:59:12 Saving i2p keys
+2019/12/01 19:59:12 Generating keys from disk
+2019/12/01 19:59:12 Destination keys generated, tunnel name: samtracker
+2019/12/01 19:59:12 Saved tunnel keys for samtracker in 
+2019/12/01 19:59:12 Finished putting tunnel up
+2019/12/01 19:59:12 Starting server
+2019/12/01 19:59:12 Starting web server 127.0.0.1:7889
+2019/12/01 19:59:12 Starting eepsite server zviyq72xcmjupynn5y2f5qa3u7bxyu34jnqmwt6czte2l7idxm7q.b32.i2p
+2019/12/01 19:59:12 Tunnel: samtracker using config: [ inbound.length=3 outbound.length=3 inbound.lengthVariance=0 outbound.lengthVariance=0 inbound.backupQuantity=1 outbound.backupQuantity=1 inbound.quantity=2 outbound.quantity=2 inbound.allowZeroHop=false outbound.allowZeroHop=false i2cp.encryptLeaseSet=false i2cp.gzip=true i2cp.reduceOnIdle=false i2cp.reduceIdleTime=600000 i2cp.reduceQuantity=3 i2cp.closeOnIdle=false i2cp.closeIdleTime=0 i2cp.fastRecieve=false      ]
+2019/12/01 19:59:16 SAM stream session established.
+2019/12/01 19:59:16 Starting Listener.
+2019/12/01 19:59:16 SAM Listener created, zviyq72xcmjupynn5y2f5qa3u7bxyu34jnqmwt6czte2l7idxm7q.b32.i2p
+2019/12/01 19:59:16 Human-readable hash:
+    elections advertiser reward platforms physical assessments americans engagement attorneys volumes cruz reproduction psychology kissing frequently michelle guests hot bee divided interactions swap generic aims edward broken glasses museum templates governmental everything grain 52
+2019/12/01 19:59:16 STREAM STATUS RESULT=OK
+
