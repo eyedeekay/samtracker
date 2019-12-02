@@ -14,7 +14,7 @@ Installation
 
 If you have a go environment set up, you can easily install it from source using
 
-        go get -u github.com/eyedeekay/samtracker
+        go get -u github.com/eyedeekay/samtracker/samtracker
 
 Or, if you want to use a binary, you can download the tar.gz file:
 
