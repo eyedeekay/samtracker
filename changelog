@@ -2,3 +2,4 @@ SAM Torrent Tracker
 ===================
 
  * intial creation and configuration for I2P
+ * add support for X-I2p-DestHash headers

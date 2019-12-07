@@ -2,7 +2,7 @@
 GO111MODULE=on
 INSTALLDIR=/usr/local/bin
 
-VERSION=0.0.01
+VERSION=0.0.02
 
 build: fmt
 	go build -a -tags "netgo static" \
