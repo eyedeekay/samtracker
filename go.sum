@@ -17,6 +17,12 @@ github.com/eyedeekay/outproxy v0.0.0-20190908174238-22bd71d43733/go.mod h1:jUBr6
 github.com/eyedeekay/portcheck v0.0.0-20190218044454-bb8718669680/go.mod h1:8VVIH19/CU2VFJB8P6e58Mo9nvDqqKgllS0oQY3F83U=
 github.com/eyedeekay/ramp v0.0.0-20190429201811-305b382042ab h1:EfTRHxGSbiaEyxNzvKRBWVIDw3mD8xXGxj4gvwFzY7Q=
 github.com/eyedeekay/ramp v0.0.0-20190429201811-305b382042ab/go.mod h1:h7mvUAMgZ/rtRDUOkvKTK+8LnDMeUhJSoa5EPdB51fc=
+github.com/eyedeekay/retracker v0.0.0-20171226134001-fdbec17ad537 h1:261LlndwwxaO7ApcprnaG1Wz7XNZopxJY+vy8lZGceo=
+github.com/eyedeekay/retracker v0.0.0-20171226134001-fdbec17ad537/go.mod h1:nNLEAk+rQOtgZLgcCgMSKHuCvmvFZ05zTJtfgJ1GYDM=
+github.com/eyedeekay/retracker v0.0.0-20191207084322-3665d9155ef2 h1:ib6tvvk1T7zuwfFDmAdLe0qY0bhApVLPrYLGBORYXUk=
+github.com/eyedeekay/retracker v0.0.0-20191207084322-3665d9155ef2/go.mod h1:nNLEAk+rQOtgZLgcCgMSKHuCvmvFZ05zTJtfgJ1GYDM=
+github.com/eyedeekay/retracker v0.0.0-20191207085626-313a7ff4fb0f h1:MdZgkH1tHladUB/g6TJLPm+xFljTOd+SRR075SJm8ZI=
+github.com/eyedeekay/retracker v0.0.0-20191207085626-313a7ff4fb0f/go.mod h1:nNLEAk+rQOtgZLgcCgMSKHuCvmvFZ05zTJtfgJ1GYDM=
 github.com/eyedeekay/sam-forwarder v0.0.0-20190814201550-7c0d7cb0d56c/go.mod h1:Ptrm1d4a3KC5/cN264Gn6OntYOmcuJ8Pkyd7+hA01gw=
 github.com/eyedeekay/sam-forwarder v0.0.0-20190831071254-d67c0c0e311f/go.mod h1:u4K8aGwSIuMSQ/OzsH7zkshnEvCQgUupfexLXZIjsDI=
 github.com/eyedeekay/sam-forwarder v0.0.0-20190905212604-029317222e15/go.mod h1:kFP6jkqHUTGGW/nMUZLnRonkPWE9fyEc8/eSU1CqTFg=

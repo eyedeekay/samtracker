@@ -23,7 +23,7 @@ type SamTracker struct {
 var err error
 
 func (f *SamTracker) GetType() string {
-	return "eephttpd"
+	return "samtracker"
 }
 
 func (f *SamTracker) ServeParent() {
@@ -70,10 +70,6 @@ func (s *SamTracker) Load() (samtunnel.SAMTunnel, error) {
 func NewSamTracker(host, port string) (*SamTracker, error) {
 	return NewSamTrackerFromOptions(SetHost(host), SetPort(port))
 }
-
-//func Never(gitkit.Credential, *gitkit.Request) (bool, error) {
-//return false, nil
-//}
 
 //NewSamTrackerFromOptions makes a new SAM forwarder with default options, accepts host:port arguments
 func NewSamTrackerFromOptions(opts ...func(*SamTracker) error) (*SamTracker, error) {

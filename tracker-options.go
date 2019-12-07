@@ -447,9 +447,9 @@ func SetKeyFile(s string) func(*SamTracker) error {
 }
 
 //SetAge sets
-func SetAge(s float64) func(*SamTracker) error {
+func SetAge(s int) func(*SamTracker) error {
 	return func(c *SamTracker) error {
-		c.config.Age = s
+		c.config.Age = float64(s)
 		return nil
 	}
 }

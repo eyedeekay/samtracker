@@ -28,8 +28,9 @@ var (
 	port               = flag.String("p", "7889", "port to serve locally on")
 	samhost            = flag.String("sh", "127.0.0.1", "sam host to connect to")
 	samport            = flag.String("sp", "7656", "sam port to connect to")
-	directory          = flag.String("d", "./www", "the directory of static files to host(default ./www)")
 	usei2p             = flag.Bool("i", true, "save i2p keys(and thus destinations) across reboots")
+	debug              = flag.Bool("d", false, "debug the tracker")
+	xrealip            = flag.Bool("x", false, "forward X-Real-IP(for reverse proxy)")
 	servicename        = flag.String("n", "samtracker", "name to give the tunnel(default samtracker)")
 	useCompression     = flag.Bool("g", true, "Uze gzip(true or false)")
 	accessListType     = flag.String("l", "none", "Type of access list to use, can be \"whitelist\" \"blacklist\" or \"none\".")
@@ -64,7 +65,7 @@ func main() {
 		}
 	}
 	config.TargetHost = config.GetHost(*host, "127.0.0.1")
-	config.TargetPort = config.GetPort(*port, "7880")
+	config.TargetPort = config.GetPort(*port, "7889")
 	config.SaveFile = config.GetSaveFile(*usei2p, true)
 	config.SamHost = config.GetSAMHost(*samhost, "127.0.0.1")
 	config.SamPort = config.GetSAMPort(*samport, "7656")
@@ -85,7 +86,7 @@ func main() {
 	config.ReduceIdleTime = config.GetReduceIdleTime(*reduceIdleTime, 600000)
 	config.ReduceIdleQuantity = config.GetReduceIdleQuantity(*reduceIdleQuantity, 2)
 	config.AccessListType = config.GetAccessListType(*accessListType, "none")
-	config.Type = config.GetTypes(false, false, false, "server")
+	config.Type = config.GetTypes(false, false, false, "http")
 
 	eepsite, err = samtracker.NewSamTrackerFromOptions(
 		samtracker.SetType(config.Type),
@@ -112,7 +113,11 @@ func main() {
 		samtracker.SetReduceIdleQuantity(config.ReduceIdleQuantity),
 		samtracker.SetAccessListType(config.AccessListType),
 		samtracker.SetAccessList(config.AccessList),
-		samtracker.SetServeDir(*directory),
+		//shared options
+		samtracker.SetDebugTracker(*debug),
+		//tracker options
+		samtracker.SetAge(180),
+		samtracker.SetXReal(*xrealip),
 	)
 	if err != nil {
 		log.Fatal(err)
