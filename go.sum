@@ -23,6 +23,10 @@ github.com/eyedeekay/retracker v0.0.0-20191207084322-3665d9155ef2 h1:ib6tvvk1T7z
 github.com/eyedeekay/retracker v0.0.0-20191207084322-3665d9155ef2/go.mod h1:nNLEAk+rQOtgZLgcCgMSKHuCvmvFZ05zTJtfgJ1GYDM=
 github.com/eyedeekay/retracker v0.0.0-20191207085626-313a7ff4fb0f h1:MdZgkH1tHladUB/g6TJLPm+xFljTOd+SRR075SJm8ZI=
 github.com/eyedeekay/retracker v0.0.0-20191207085626-313a7ff4fb0f/go.mod h1:nNLEAk+rQOtgZLgcCgMSKHuCvmvFZ05zTJtfgJ1GYDM=
+github.com/eyedeekay/retracker v0.0.0-20191207232420-93f160c39687 h1:MO1Om6uNyJ0S4j7tS3Mtp2rG20Ip+XPPAn6dLWlAe5Y=
+github.com/eyedeekay/retracker v0.0.0-20191207232420-93f160c39687/go.mod h1:nNLEAk+rQOtgZLgcCgMSKHuCvmvFZ05zTJtfgJ1GYDM=
+github.com/eyedeekay/retracker v0.0.0-20191208024817-1068d9dccb6d h1:OrYEqYkav2QZdBSwXQ8iqsnbZv0KQkWXbnCl7WZsH4c=
+github.com/eyedeekay/retracker v0.0.0-20191208024817-1068d9dccb6d/go.mod h1:YCuBD/+cyrDyP54x/snTfObZgpjJ61TVRG1r5mEov+w=
 github.com/eyedeekay/sam-forwarder v0.0.0-20190814201550-7c0d7cb0d56c/go.mod h1:Ptrm1d4a3KC5/cN264Gn6OntYOmcuJ8Pkyd7+hA01gw=
 github.com/eyedeekay/sam-forwarder v0.0.0-20190831071254-d67c0c0e311f/go.mod h1:u4K8aGwSIuMSQ/OzsH7zkshnEvCQgUupfexLXZIjsDI=
 github.com/eyedeekay/sam-forwarder v0.0.0-20190905212604-029317222e15/go.mod h1:kFP6jkqHUTGGW/nMUZLnRonkPWE9fyEc8/eSU1CqTFg=
@@ -49,6 +53,7 @@ github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINE
 github.com/spf13/pflag v1.0.3/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnInEg4=
 github.com/vvampirius/retracker v0.0.0-20171226134001-fdbec17ad537 h1:tzwfH/icuZbxYWB2YL94pB+TsgYDtV++E5OAtVok//k=
 github.com/vvampirius/retracker v0.0.0-20171226134001-fdbec17ad537/go.mod h1:dleUEOn/BmkTNbOn5w6w3XXg8pL4OaOCMH066oaL7cE=
+github.com/zeebo/bencode v0.0.0-20171107213702-3bb23f1b4385/go.mod h1:Ct7CkrWIQuLWAy9M3atFHYq4kG9Ao/SsY5cdtCXmp9Y=
 github.com/zeebo/bencode v1.0.0 h1:zgop0Wu1nu4IexAZeCZ5qbsjU4O1vMrfCrVgUjbHVuA=
 github.com/zeebo/bencode v1.0.0/go.mod h1:Ct7CkrWIQuLWAy9M3atFHYq4kG9Ao/SsY5cdtCXmp9Y=
 github.com/zieckey/goini v0.0.0-20180118150432-0da17d361d26 h1:E0lEWrifmR0ACbGf5PLji1XbW6rtIXLHCXO/YOqi0AE=

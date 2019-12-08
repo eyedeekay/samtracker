@@ -8,4 +8,4 @@ require (
 	github.com/zeebo/bencode v1.0.0 // indirect
 )
 
-replace github.com/vvampirius/retracker v0.0.0-20171226134001-fdbec17ad537 => github.com/eyedeekay/retracker v0.0.0-20191207085626-313a7ff4fb0f
+replace github.com/vvampirius/retracker v0.0.0-20171226134001-fdbec17ad537 => github.com/eyedeekay/retracker v0.0.0-20191208024817-1068d9dccb6d
