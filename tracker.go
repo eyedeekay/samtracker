@@ -79,6 +79,14 @@ func (s *SamTracker) Init() {
 	s.config.Listen = s.Target()
 }
 
+func (s *SamTracker) InitTarget(target string) {
+	s.config = &common.Config{}
+	s.config.Age = 180
+	s.config.Debug = false
+	s.config.XRealIP = false
+	s.config.Listen = target
+}
+
 //NewSamTrackerFromOptions makes a new SAM forwarder with default options, accepts host:port arguments
 func NewSamTrackerFromOptions(opts ...func(*SamTracker) error) (*SamTracker, error) {
 	var s SamTracker
