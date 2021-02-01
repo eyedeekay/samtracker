@@ -71,7 +71,7 @@ func NewSamTracker(host, port string) (*SamTracker, error) {
 	return NewSamTrackerFromOptions(SetHost(host), SetPort(port))
 }
 
-func (f *SamTracker) Init() {
+func (s *SamTracker) Init() {
 	s.config = &common.Config{}
 	s.config.Age = 180
 	s.config.Debug = false
