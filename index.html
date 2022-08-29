@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>
+      samtracker
+    </title>
+    <meta name="author" content="eyedeekay" />
+    <meta name="description" content="samtracker" />
+    <meta name="keywords" content="master" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="showhider.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="#shownav">
+        Show navigation
+      </a>
+      <div id="shownav">
+        <div id="hidenav">
+          <ul>
+            <li>
+              <a href="..">
+                Up one level ^
+              </a>
+            </li>
+            <li>
+              <a href="index.html">
+                index
+              </a>
+            </li>
+          </ul>
+          <br>
+          <a href="#hidenav">
+            Hide Navigation
+          </a>
+        </div>
+      </div>
+    </div>
+    <h1>
+      <a href="#samtracker" rel="nofollow">
+        <span></span>
+      </a>
+      samtracker
+    </h1>
+    <p>
+      Oh neat, that was easy.
+    </p>
+    <p>
+      This is an HTTP Bittorrent tracker with automatic port-forwarding to I2P, based
+      on
+      <a href="https://github.com/vvampirius/retracker" rel="nofollow">
+        vvampirius/retracker
+      </a>
+      . It is very
+      minimal, memory safe, and doesn&#39;t really do much other than let people announce
+      torrents, which is all it&#39;s supposed to do.
+    </p>
+    <h2>
+      <a href="#installation" rel="nofollow">
+        <span></span>
+      </a>
+      Installation
+    </h2>
+    <p>
+      If you have a go environment set up, you can easily install it from source using
+    </p>
+    <pre><code>    go get -u github.com/eyedeekay/samtracker/samtracker
+</code></pre>
+    <p>
+      Or, if you want to use a binary, you can download the tar.gz file:
+    </p>
+    <pre><code>    wget https://github.com/eyedeekay/samtracker/releases/download/0.0.01/samtracker.tar.gz
+    mkdir tmp &amp;&amp; cd tmp
+    tar xvf ../samtracker.tar.gz
+    sudo make install
+</code></pre>
+    <div id="sourcecode">
+      <ul>
+        <li>
+          <a href="https://github.com/eyedeekay/samtracker">
+            Source Code: (https://github.com/eyedeekay/samtracker)
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div>
+      <a href="https://geti2p.net/">
+        <img src="i2plogo.png"></img>
+        I2P
+      </a>
+    </div>
+  </body>
+</html>
